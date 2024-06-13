@@ -1,0 +1,206 @@
+body{
+    height: 2000px;
+}
+
+.itemes{
+    gap: 3vw;
+}.active{
+    text-align: center;
+    line-height: 20px;
+    width: 7vw; 
+    height: 40px;
+}.active:hover{
+    border-bottom: 3px solid;
+}
+
+.for_width{
+    width: 9vw;
+}
+
+.row{
+    margin-top: 2vw;
+}
+
+.row .for_style{
+    border: 1px solid;
+    border-radius: 10px;
+
+    font-size: 20px;
+    font-weight: 400;
+
+    margin: 30px 0;
+}.for_style:hover{
+    background: #FFCC00;
+    border: 1px solid #FFCC00;
+    color: white;
+}
+
+.card{
+    border: none;
+}
+
+.khaled{
+    font-size: 24px; font-weight: 400; line-height: 36px;
+}
+.stack{
+    font-size: 64px; font-weight: 700; line-height: 82.82px;
+}
+.rndmtxt{
+    font-size: 20px; font-weight: 400; line-height: 36px;
+}
+
+.folo_me{
+    font-weight: 500; font-size: 22px; line-height: 40px; margin: 10px 0;
+}
+.mouse{
+    text-align: end; margin: 10px 0;
+}
+
+
+
+@media (max-width: 1100px){
+ 
+    .container{
+        width: 100%;
+    }
+    .row .card{
+        width: 100%; 
+    }
+
+    .khaled{
+        font-size: 4vw; font-weight: 500; line-height: 6vw;
+    }
+    .stack{
+        line-height: 7vw;
+        font-size: 7vw;
+        padding: 20px 0;
+    }
+    br{
+        display: none;
+    }
+    .row .for_style{
+        border: 1px solid;
+        border-radius: 2vw;
+    
+        font-size: 4vw;
+        font-weight: 400;
+
+       
+    
+        margin: 2vw 0;
+    }.for_style:hover{
+        background: #FFCC00;
+        border: 1px solid #FFCC00;
+        color: white;
+    }
+    .rndmtxt{
+        font-size: 4vw; font-weight: 400; line-height: 5vw;
+    }
+    .folo_me{
+        font-weight: 500; font-size: 4vw; line-height: 3vw; margin: 1vw 0;
+    }
+    .mouse{
+       display: none;
+    }
+
+    /* .style{
+    
+    } */
+}
+
+@media (max-width: 800px){
+  
+    .container{
+        width: 100%;
+    }
+    .row .card{
+        width: 100%; 
+    }
+
+    .khaled{
+        font-size: 4vw; font-weight: 400; line-height: 2vw;
+    }
+    .stack{
+        line-height: 5vw;
+        font-size: 5vw;
+        
+    }
+    .row .for_style{
+        border: 1px solid;
+        border-radius: 2vw;
+    
+        font-size: 4vw;
+        font-weight: 400;
+    
+        margin: 2vw 0;
+    }.for_style:hover{
+        background: #FFCC00;
+        border: 1px solid #FFCC00;
+        color: white;
+    }
+    .rndmtxt{
+        font-size: 3vw; font-weight: 400; line-height: 4vw;
+    }
+    .folo_me{
+        font-weight: 500; font-size: 2vw; line-height: 3vw; margin: 1vw 0;
+    }
+    .mouse{
+       display: none;
+    }
+
+}
+
+@media (max-width: 420px){
+    
+    .container{
+        width: 100%;
+    }
+    .row .card{
+        width: 100%; 
+    }
+
+    .khaled{
+        font-size: 4vw; font-weight: 400; line-height: 2vw;
+    }
+    .stack{
+        line-height: 5vw;
+        font-size: 5vw;
+        
+    }
+    .row .for_style{
+        border: 1px solid;
+        border-radius: 2vw;
+    
+        font-size: 4vw;
+        font-weight: 400;
+    
+        margin: 2vw 0;
+    }.for_style:hover{
+        background: #FFCC00;
+        border: 1px solid #FFCC00;
+        color: white;
+    }
+    .rndmtxt{
+        font-size: 3vw; font-weight: 400; line-height: 4vw;
+    }
+    .folo_me{
+        font-weight: 500; font-size: 2vw; line-height: 3vw; margin: 1vw 0;
+    }
+    .mouse{
+       display: none;
+    }
+
+}
+
+.NAV_ANIMATION{
+    width: 100%;
+    margin-top: -30px;
+    animation: nav_any .4s linear;
+
+    z-index: 990;
+
+}@keyframes nav_any{
+    0%{
+        transform: translateY(-100%);
+    }
+}
